@@ -1,0 +1,89 @@
+{
+    "name": "CyberArk EPM Premium Light",
+    "dataColors": [
+        "#3B82F6", 
+        "#0D9488", 
+        "#10B981", 
+        "#6366F1", 
+        "#F59E0B", 
+        "#EF4444", 
+        "#8B5CF6", 
+        "#EC4899"
+    ],
+    "background": "#F5F7FA",
+    "foreground": "#1E293B",
+    "tableAccent": "#3B82F6",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "background": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#FFFFFF" } },
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false
+                    }
+                ],
+                "dropShadow": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#E2E8F0" } },
+                        "position": "Outer",
+                        "preset": "BottomRight"
+                    }
+                ],
+                "visualCorners": [
+                    {
+                        "show": true,
+                        "radius": 8
+                    }
+                ],
+                "title": [
+                    {
+                        "show": true,
+                        "fontFamily": "Segoe UI Semibold",
+                        "fontSize": 12,
+                        "fontColor": { "solid": { "color": "#1E293B" } },
+                        "alignment": "Left"
+                    }
+                ]
+            }
+        },
+        "page": {
+            "*": {
+                "background": [
+                    {
+                        "color": { "solid": { "color": "#F5F7FA" } },
+                        "transparency": 0
+                    }
+                ]
+            }
+        },
+        "slicer": {
+            "*": {
+                "background": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#EEF2FF" } },
+                        "transparency": 0
+                    }
+                ],
+                "visualCorners": [
+                    {
+                        "show": true,
+                        "radius": 16
+                    }
+                ],
+                "dropShadow": [
+                    {
+                        "show": false
+                    }
+                ]
+            }
+        }
+    }
+}
